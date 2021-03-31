@@ -8,10 +8,10 @@ When researchers try to use Vulnerability_Farm to find security vulnerabilities 
 4.Vulnerability_Farm will construct fuzzing test data and detect sensitive function parameters.  
 5.If a security vulnerability is detected, Vulnerability_Farm will display the test data and parameter transfer path.  
 
-Note:  
+**Note:**
 When testing open source network software in php language, the researcher needs to enable pdo, pcre, and json functions in the php environment.  
 When testing open source web software in java language, the researcher needs to build a tomcat environment.  
 
-More:  
+**More:**
 There are already a large number of fuzz software for web software, such as sqlmap and so on. They found vulnerabilities by examining the page results after processing the crafted parameters. However, these fuzz software cannot detect vulnerabilities that are not echoed, nor can they show attack paths.   
 Compared with these software, Vulnerability_Farm can increase the path coverage rate and reduce the false alarm rate through the runtime detection method, and it can find more complicated vulnerabilities.  
